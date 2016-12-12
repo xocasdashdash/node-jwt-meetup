@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= user
+  p Welcome user #{user}
+  p You logged in  #{last_login_time}
+    a(href="/users/logout") logout
