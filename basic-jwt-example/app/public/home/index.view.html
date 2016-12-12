@@ -1,0 +1,14 @@
+﻿<div class="col-md-6 col-md-offset-3">
+    <h1>Home</h1>
+    <p>You're logged in with JWT!!</p>
+    <p><a ng-click="vm.logout()">Logout</a></p>
+    <p>Here's your token </p>
+    <pre>{{ vm.token | json }}</pre>
+    <p>Views: {{ vm.views }}</p>
+    <form>
+        <input type="submit" ng-click="vm.incViews()" value="Increment views"/>
+    </form>
+    <form>
+        <input type="submit" ng-click="vm.fetchViews()" value="Fetch views" />
+    </form>
+</div>

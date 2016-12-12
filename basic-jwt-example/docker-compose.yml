@@ -5,4 +5,4 @@ services:
     volumes:
       - "./app:/app"
     ports:
-      - "3031:3000"
+      - "3030:3000"
